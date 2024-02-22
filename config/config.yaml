@@ -1,0 +1,19 @@
+# general
+seed: 21
+workers: 8
+
+# train options
+start_epoch: 0
+epochs: 500
+
+# model options
+feature_dim: 100
+model_path: "model"
+reload: False
+# loss options
+learning_rate: 0.0001
+weight_decay: 0.
+
+instance_temperature: 0.3
+bandwidth: 0.27
+zero_percentage: 0.61
