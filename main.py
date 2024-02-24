@@ -224,7 +224,7 @@ if __name__ == "__main__":
         fea1 = pd.DataFrame(data=encoded_factors, columns=map(lambda x: 'v' + str(x), range(encoded_factors.shape[1])))
 
         cl_path = 'test\\' + cancer_type +'\\'+cancer_type+ '_clinical.csv'
-        fea1 = pd.read_csv('out\\' + cancer_type + '_features.csv', index_col=None)
+        fea1 = pd.read_csv('test\\CESC\\' + cancer_type + '_features.csv', index_col=None)
 
         zero_percentage = fea1.eq(0).mean()
 
