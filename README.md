@@ -11,13 +11,13 @@ The model is developed with Python 3.10, Pytorch 2.2.1, and CUDA12.1, for other 
 
 
 
-## Run
+## start
 
     ```bash
     python main.py
     ```
 This will run CLCluster with the test dataset in `test/`. If you need to use a local dataset to use CLCluster for clustering, please refer to the dataset format in `test/` to provide the data.
 
-Results include raw data downscaling results `CESC_features.csv`, cancer subtype clustering results `CESC_cluster.csv`, subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The results will be in `out/`，
+Results include raw data downscaling results `CESC_features.csv`, cancer subtype clustering results `CESC_cluster.csv`, subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The results will be in `out/`.We provide the preprocessed data and model clustering results of all other cancers in the data folder.
 
 
