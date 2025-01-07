@@ -11,7 +11,7 @@ The model is developed with Python 3.10, Pytorch 2.2.1, and CUDA12.1, for other 
 
 
 
-## start
+## Start
 
     ```bash
     python main.py
