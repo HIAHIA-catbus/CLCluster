@@ -19,8 +19,12 @@ The version of the databases
 | TCGA | v35.0 | https://gdc.cancer.gov/ |
 | TCGASpliceSeq | 2.1 | https://bioinformatics.mdanderson.org/TCGASpliceSeq/index.jsp |
 | GENCODE | V45 | https://www.gencodegenes.org/human/release_45.html |
+| RBPDB | v1.3.1 | http://rbpdb.ccbr.utoronto.ca/proteins.php?species_filter=9606 |
+| UniProtKB | 2023_03 | https://www.uniprot.org/ |
+| COSMIC | v101 | https://cancer.sanger.ac.uk/cosmic/download/cosmic/v101/cancergenecensus |
+| ExonSkipDB |  | https://ccsm.uth.edu/ExonSkipDB/ |
 
-    ```bash
+```bash
     python main.py
     ```
 This will run CLCluster with the test dataset in `test/`. If you need to use a local dataset to use CLCluster for clustering, please refer to the dataset format in `test/` to provide the data.
