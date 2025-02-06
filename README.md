@@ -5,7 +5,7 @@ Alternative splicing (AS) allows one gene to produce several protein variants, o
 
 ## Dependencies
 
-CLCluster (Figure 6) is a clustering algorithm based on redundancy-reduction contrastive learning. It is used to classify cancer subtypes using multi-omics data of patients as input and providing the subtype of cancer as output. The method performs feature extraction by redundancy-reduction contrastive learning model. For the extracted features, after introducing survival information for further dimensionality reduction, clustering is performed using Mean-Shift to obtain cancer subtypes. To prevent model collapse and not require negative examples or asymmetric structures, we employ a unique loss function for redundancy-reduction contrastive learning.
+CLCluster is a clustering algorithm based on redundancy-reduction contrastive learning. It is used to classify cancer subtypes using multi-omics data of patients as input and providing the subtype of cancer as output. The method performs feature extraction by redundancy-reduction contrastive learning model. For the extracted features, after introducing survival information for further dimensionality reduction, clustering is performed using Mean-Shift to obtain cancer subtypes. To prevent model collapse and not require negative examples or asymmetric structures, we employ a unique loss function for redundancy-reduction contrastive learning.
 
 The model is developed with Python 3.10, Pytorch 2.2.1, and CUDA12.1, for other environments, please refer to `environment.yml`
 
