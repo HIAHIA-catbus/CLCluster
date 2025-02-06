@@ -51,11 +51,11 @@ We provide the preprocessed data and model clustering results of all other cance
 ### Drug Sensitivity
 We provide the drug sensitivity analysis results in [data/Drug Sensitivity](https://www.synapse.org/Synapse:syn64598517/files/). If you want to make your own drug annotation based on the cancer subtype classification results, please refer to the following steps：
 
-1. Use oncoPredict to predict the drug sensitivity relationship between samples and 198 drugs based on gene expression data.
+1. Using [oncoPredict](https://cran.r-project.org/web/packages/oncoPredict/index.html) to predict the drug sensitivity relationship between samples and 198 drugs based on gene expression data.
 
-2. Use clustering results as grouping features, perform variance analysis, screen the variance analysis results, and screen out drugs with significant differences in drug sensitivity between subtypes when P<0.05
+2. Using clustering results as grouping features, perform variance analysis, screen the variance analysis results, and screen out drugs with significant differences in drug sensitivity between subtypes when P<0.05
 
-3. Obtain drug target data from Cancerdrugsdb and complete target annotation of early-onset drugs.
+3. Obtaining drug target data from Cancerdrugsdb and complete target annotation of early-onset drugs.
 
 
 
