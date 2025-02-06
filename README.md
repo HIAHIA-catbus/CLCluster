@@ -33,7 +33,7 @@ The version of the databases
 
 
 ## Start
-### Cancer subtype classification
+### Cancer Subtype Classification
 1. Example data (CESC) is in *test* and can be download to test. If you want to run your own data, please refer to the data preprocessing method in the paper for data preprocessing.
 
 2. Modify the configuration. Run the test file without modifying the configuration. If you run your own data, please modify the cancer name and other information in *yaml*.
@@ -47,6 +47,17 @@ This will run CLCluster with the test dataset in `test/`.
 Results include raw data downscaling results `CESC_features.csv`, cancer subtype clustering results `CESC_cluster.csv`, subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The results will be in `out/`.
 
 We provide the preprocessed data and model clustering results of all other cancers in the [data/CLCluster](https://www.synapse.org/Synapse:syn64598517/files/).
+
+### Drug Sensitivity
+We provide the drug sensitivity analysis results in [data/Drug Sensitivity](https://www.synapse.org/Synapse:syn64598517/files/). If you want to make your own drug annotation based on the cancer subtype classification results, please refer to the following steps：
+
+1. Use oncoPredict to predict the drug sensitivity relationship between samples and 198 drugs based on gene expression data.
+
+2. Use clustering results as grouping features, perform variance analysis, screen the variance analysis results, and screen out drugs with significant differences in drug sensitivity between subtypes when P<0.05
+
+3. Obtain drug target data from Cancerdrugsdb and complete target annotation of early-onset drugs.
+
+
 
 ### ACP Prediction
 We provide the input and output data for ACP prediction in [data/ACP](https://www.synapse.org/Synapse:syn64598517/files/), and you can directly run the input data using [ACPredStackL](https://github.com/liangxiaoq/ACPredStackL) and [AACFlow](https://github.com/z11code/AACFlow). 
