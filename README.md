@@ -43,7 +43,9 @@ This will run CLCluster with the test dataset in `test/`.
 ![54fb903f33b2501283fa2bcab62da9b](https://github.com/user-attachments/assets/49097b09-905a-4095-a4b2-aac9b81e1a60)
 
 
-3. subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The KM analysis result of CESC was significant (p=0.0387), which indicates that there are significant survival differences among the four subtypes identified by CLCluster. The results of TSNE show that the patients corresponding to the four subtypes identified by CLCluster can be clearly distinguished in terms of spatial characteristics.
+3. subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`.
+   The KM analysis result of CESC was significant (p=0.0387), which indicates that there are significant survival differences among the four subtypes identified by CLCluster.
+   The results of TSNE show that the patients corresponding to the four subtypes identified by CLCluster can be clearly distinguished in terms of spatial characteristics.
 ![图片2](https://github.com/user-attachments/assets/afece776-6db2-4965-9a7b-aec14d514c02)
 
 
