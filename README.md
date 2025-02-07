@@ -32,7 +32,16 @@ bash environment.sh
 
 This will run CLCluster with the test dataset in `test/`. 
 
-Results include raw data downscaling results `CESC_features.csv`, cancer subtype clustering results `CESC_cluster.csv`, subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The results will be in `out/`.
+Results include:
+Raw data downscaling results `CESC_features.csv`. The low-dimensional embedding is generated after inputting the original dataset into the contrastive learning module.
+
+Cancer subtype clustering results `CESC_cluster.csv`. CLCluster divides CESC into four subtypes
+
+subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The KM analysis result of CESC was significant (p=0.0387), which indicates that there are significant survival differences among the four subtypes identified by CLCluster. The results of TSNE show that the patients corresponding to the four subtypes identified by CLCluster can be clearly distinguished in terms of spatial characteristics.
+
+
+
+The results will be in `out/`.
 
 We provide the preprocessed data and model clustering results of all other cancers in the [data/CLCluster](https://www.synapse.org/Synapse:syn64598517/files/).
 
