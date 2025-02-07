@@ -34,13 +34,13 @@ This will run CLCluster with the test dataset in `test/`.
 
 Results include:
 Raw data downscaling results `CESC_features.csv`. The low-dimensional embedding is generated after inputting the original dataset into the contrastive learning module.
+![image](https://github.com/user-attachments/assets/90cc64d3-4e22-4c7a-8304-584b18c09c1e)
 
 Cancer subtype clustering results `CESC_cluster.csv`. CLCluster divides CESC into four subtypes
 ![2ae35c970dc7b5504e556acb89a55d0](https://github.com/user-attachments/assets/f7d3d6c6-b03e-4e18-a41b-d89e210de800)
 
 subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The KM analysis result of CESC was significant (p=0.0387), which indicates that there are significant survival differences among the four subtypes identified by CLCluster. The results of TSNE show that the patients corresponding to the four subtypes identified by CLCluster can be clearly distinguished in terms of spatial characteristics.
-
-
+![CESC_TSNE](https://github.com/user-attachments/assets/b9bbc16c-453e-45a3-aa69-5b662894aef4)  ![CESC_KM](https://github.com/user-attachments/assets/ad3775ae-c571-4c58-91b6-bcbd7cbe76ec)
 
 The results will be in `out/`.
 
