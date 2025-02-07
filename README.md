@@ -40,7 +40,7 @@ Cancer subtype clustering results `CESC_cluster.csv`. CLCluster divides CESC int
 ![2ae35c970dc7b5504e556acb89a55d0](https://github.com/user-attachments/assets/f7d3d6c6-b03e-4e18-a41b-d89e210de800)
 
 subtype KM images `CESC_KM.png`, subtype TSEN visualization images `CESC_TSEN.png`. The KM analysis result of CESC was significant (p=0.0387), which indicates that there are significant survival differences among the four subtypes identified by CLCluster. The results of TSNE show that the patients corresponding to the four subtypes identified by CLCluster can be clearly distinguished in terms of spatial characteristics.
-![CESC_TSNE](https://github.com/user-attachments/assets/b9bbc16c-453e-45a3-aa69-5b662894aef4)  ![CESC_KM](https://github.com/user-attachments/assets/ad3775ae-c571-4c58-91b6-bcbd7cbe76ec)
+![图片2](https://github.com/user-attachments/assets/afece776-6db2-4965-9a7b-aec14d514c02)
 
 The results will be in `out/`.
 
