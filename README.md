@@ -32,7 +32,7 @@ bash environment.sh
 
 This will run CLCluster with the test dataset in `test/`. 
 
-Results include:
+#### Results include:
 Raw data downscaling results `CESC_features.csv`. The low-dimensional embedding is generated after inputting the original dataset into the contrastive learning module.
 ![image](https://github.com/user-attachments/assets/90cc64d3-4e22-4c7a-8304-584b18c09c1e)
 
